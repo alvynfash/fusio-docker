@@ -12,8 +12,8 @@ services:
       FUSIO_BACKEND_PW: "test1234"
       #FUSIO_MAILER: "native://default"
       #FUSIO_MESSENGER: "doctrine://default"
-      #FUSIO_URL: "http://api.fusio.cloud:8080"
-      #FUSIO_APPS_URL: "http://api.fusio.cloud:8080/apps"
+      FUSIO_URL: "http://api.tribestick.com:8080"
+      FUSIO_APPS_URL: "http://api.tribestick.com:8080/apps"
       #FUSIO_MAIL_SENDER: "info@api.fusio.cloud"
       #FUSIO_TRUSTED_IP_HEADER: ""
       #FUSIO_TENANT_ID: ""
@@ -28,7 +28,7 @@ services:
       #- worker-php
       #- worker-python
     ports:
-      - "8090"
+      - "8080"
 
   mysql-fusio:
     image: mysql:8.0
