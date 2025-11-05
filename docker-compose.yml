@@ -28,7 +28,7 @@ services:
       #- worker-php
       #- worker-python
     ports:
-      - "8080:80"
+      - "8090"
 
   mysql-fusio:
     image: mysql:8.0
